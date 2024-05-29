@@ -7,17 +7,20 @@ import { QualificationsCard } from "../Cards/QualificationsCard";
 // import { ProjectCard } from "./../Cards/ProjectCard";
 import { Heading } from "./../CategoryHeading/Heading";
 import styles from "./Qualifications.module.css";
+import mernImage from "../../Assests/Images/mern4.png"
+import rcuPng from "../../Assests/Images/rcu.png"
+import pucPng from "../../Assests/Images/puc.png"
 
 const data = [
     {
-        logo: "/Images/mern4.png",
+        logo: mernImage,
         title: "Full-Stack Web Developer",
         organization: "Masai School",
         duration: "January 2021 - August 2021 | Remote",
         // navigate_to: "github.com/SumanChakraborty1998",
     },
     {
-        logo: "/Images/rcu.png",
+        logo: rcuPng,
         title: "Bachelor of commerce",
         organization: "Rani Channamma University, Belagavi, Karnataka. 591156.",
         duration: "June 2015 - September 2018 | Belgaum, Karnataka",
@@ -25,7 +28,7 @@ const data = [
         //     "drive.google.com/drive/folders/1UMMC91ssrU46gTE6-sBCpWGkDxob0tDU?usp=sharing",
     },
     {
-        logo: "/Images/puc.png",
+        logo: pucPng,
         title: "Higher Secondary Examination",
         organization: "Karnataka P.U Board",
         duration: "June 2013 - May - 2015 | Karnataka",

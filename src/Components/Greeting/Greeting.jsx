@@ -14,6 +14,7 @@ import styles from "./Greeting.module.css";
 import { darkTheme } from "./../../theme";
 import { Button } from "./../Button/Button";
 import { SocialMedia } from "./../SocialMedia/SocialMedia";
+import profileImage from "../../Assests/Images/profile.png";
 // import { DisplayLottie } from "./DisplayLottie";
 import { NavLink } from "react-router-dom";
 
@@ -34,7 +35,7 @@ export const Greeting = () => {
                     <div>
                         <img
                             className={`${styles.avatar_main} ${styles.hide_vector_two}`}
-                            src="/Images/profile.png"
+                            src={profileImage}
                             alt="Avatar"
                         />
                         <h1

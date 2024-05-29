@@ -28,6 +28,7 @@ import CallTwoToneIcon from "@material-ui/icons/CallTwoTone";
 import { useHistory } from "react-router-dom";
 import HomeTwoToneIcon from "@material-ui/icons/HomeTwoTone";
 import WorkIcon from "@material-ui/icons/Work";
+import profileImage from "../../Assests/Images/profile.png"
 
 // import DraftsTwoToneIcon from "@material-ui/icons/DraftsTwoTone";
 import { NavLink } from "react-router-dom";
@@ -76,6 +77,9 @@ export const Navbar = () => {
         setCurrentPath(location)
 
         location = location.toLowerCase();
+        if(location === "home") {
+            location = "portfolio"
+        }
         history.push(`/${location}`);
         // console.log(location);
     };
@@ -103,8 +107,8 @@ export const Navbar = () => {
         >
             <div style={{ display: "flex", marginTop: "10%" }}>
                 <img
-                    src="/Images/profile.png"
-                    alt="Suman"
+                    src={profileImage}
+                    alt="Shanoor"
                     style={{
                         width: "100px",
                         margin: "auto",

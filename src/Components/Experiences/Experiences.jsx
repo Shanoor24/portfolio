@@ -7,10 +7,11 @@ import { QualificationsCard } from "../Cards/QualificationsCard";
 // import { ProjectCard } from "./../Cards/ProjectCard";
 import { Heading } from "./../CategoryHeading/Heading";
 import styles from "./Experiences.module.css";
+import callHubImage from "../../Assests/Images/callhubLogo.png"
 
 const data = [
     {
-        logo: "/Images/callhubLogo.png",
+        logo: callHubImage,
         title: "Gaglers software private Ltd.",
         organization: "Software Engineer",
         duration: "September 2021 - April 2023",

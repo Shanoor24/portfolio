@@ -17,7 +17,7 @@ export const Routes = () => {
                 <Route path="/" exact>
                     <Greeting />
                 </Route>
-                <Route path="/home">
+                <Route path="/portfolio">
                     <Greeting />
                 </Route>
 

@@ -1,3 +1,26 @@
+import android3 from "../src/Assests/Images/android3.png"
+import gmailSvg from "../src/Assests/Images/gmail_svg.svg"
+import linkedInSvg from "../src/Assests/Images/linkedin_svg.svg"
+import githubSvg from "../src/Assests/Images/github_svg.svg"
+import twitterSvg from "../src/Assests/Images/twitter_svg.svg"
+import goibiboImage from "../src/Assests/Images/Goibibo.JPG"
+import htmlSvg from "../src/Assests/Images/html5.svg"
+import cssSvg from "../src/Assests/Images/css3.svg"
+import reactSvg from "../src/Assests/Images/react.svg"
+import nodeSvg from "../src/Assests/Images/node.svg"
+import mongoSvg from "../src/Assests/Images/mongo.svg"
+import javascriptSvg from "../src/Assests/Images/js.svg"
+import reduxSvg from "../src/Assests/Images/redux.svg"
+import myntraImage from "../src/Assests/Images/Myntra.JPG"
+import latelyImage from "../src/Assests/Images/lately.JPG"
+import antDPng from "../src/Assests/Images/antD.png"
+import reactNativePng from "../src/Assests/Images/reactNative.png"
+import jQueryPng from "../src/Assests/Images/jQuery.png"
+import gatsbyPng from "../src/Assests/Images/gatsby.png"
+import materialUiSvg from "../src/Assests/Images/mui.svg"
+import greenhousImage from "../src/Assests/Images/Greenhouse.JPG"
+import expressImage from "../src/Assests/Images/express.svg"
+
 export const greeting = {
     title: "Hi, I'm Shanoor ",
     emogi: `emoji("👋")`,
@@ -15,35 +38,35 @@ export const socialMediaLinks = [
     {
         name: "Mobile",
         link: "tel:9480456712",
-        logo: "/Images/android3.png",
+        logo: android3,
     },
     {
         name: "Gmail",
         link: "mailto:shanoorfb2403@gmail.com",
-        logo: "/Images/gmail_svg.svg",
+        logo: gmailSvg,
     },
     {
         name: "LinkedIn",
         link: "https://www.linkedin.com/in/shanoor-balekundri-33312916b/",
-        logo: "/Images/linkedin_svg.svg",
+        logo: linkedInSvg,
     },
     {
         name: "Github",
         link: "https://github.com/Shanoor24",
-        logo: "/Images/github_svg.svg",
+        logo: githubSvg,
     },
 
     {
         name: "Twitter",
         link: "https://twitter.com/Shanoorfb24",
-        logo: "/Images/twitter_svg.svg",
+        logo: twitterSvg,
     },
 ];
 
 export const projectLinks = [
     {
         title: "Goibibo - Clone",
-        image: "/Images/Goibibo.JPG",
+        image: goibiboImage,
         description:
             "Goibibo is India’s leading online travel booking brand providing range of choice for hotels, flights, trains, bus and cars for travelers.",
         live_link: "https://goibibo-project-dff906.netlify.app/",
@@ -52,30 +75,30 @@ export const projectLinks = [
         tech_stack: [
             {
                 name: "HTML-5",
-                image: "/Images/html5.svg",
+                image: htmlSvg,
             },
             {
                 name: "CSS-3",
-                image: "/Images/css3.svg",
+                image: cssSvg,
             },
             {
                 name: "React",
-                image: "/Images/react.svg",
+                image: reactSvg,
             },
             {
                 name: "Node",
-                image: "/Images/node.svg",
+                image: nodeSvg,
             },
 
             {
                 name: "MongoDB",
-                image: "/Images/mongo.svg",
+                image: mongoSvg,
             },
         ],
     },
     {
         title: "Myntra - Clone",
-        image: "/Images/Myntra.JPG",
+        image: myntraImage,
         description:
             "India's largest fashion e-commerce platform founded in 2007 to sell personalized gift items. It is a one stop shop for all your fashion and lifestyle needs.",
         live_link: "https://myntra-clone-masai.netlify.app/",
@@ -84,29 +107,29 @@ export const projectLinks = [
         tech_stack: [
             {
                 name: "HTML-5",
-                image: "/Images/html5.svg",
+                image: htmlSvg,
             },
             {
                 name: "CSS-3",
-                image: "/Images/css3.svg",
+                image: cssSvg,
             },
             {
                 name: "JavaScript",
-                image: "/Images/js.svg",
+                image: javascriptSvg,
             },
             {
                 name: "React",
-                image: "/Images/react.svg",
+                image: reactSvg,
             },
             {
                 name: "Redux",
-                image: "/Images/redux.svg",
+                image: reduxSvg,
             }
         ],
     },
     {
         title: "Lately - Clone",
-        image: "/Images/lately.JPG",
+        image: latelyImage,
         description:
             "Lately is the only social media management platform that creates content for thier customers with the power of A.I.",
         live_link: "https://lately-deploy.vercel.app/",
@@ -115,15 +138,15 @@ export const projectLinks = [
         tech_stack: [
             {
                 name: "HTML-5",
-                image: "/Images/html5.svg",
+                image: htmlSvg,
             },
             {
                 name: "CSS-3",
-                image: "/Images/css3.svg",
+                image: cssSvg,
             },
             {
                 name: "JavaScript",
-                image: "/Images/js.svg",
+                image: javascriptSvg,
             },
         ],
     }
@@ -155,46 +178,46 @@ export const projectLinks = [
 export const frontend_skills = [
     {
         name: "React",
-        image: "/Images/react.svg",
+        image: reactSvg,
     },
     {
         name: "JavaScript",
-        image: "/Images/js.svg",
+        image: javascriptSvg,
     },
     {
         name: "Redux",
-        image: "/Images/redux.svg",
+        image: reduxSvg,
     },
     {
         name: "CSS-3",
-        image: "/Images/css3.svg",
+        image: cssSvg,
     },
     {
         name: "Nodejs",
-        image: "/Images/node.svg",
+        image: nodeSvg,
     },
 ];
 
 export const backend_skills = [
     {
         name: "React Native",
-        image: "/Images/reactNative.png",
+        image: reactNativePng,
     },
     {
         name: "jQuery",
-        image: "/Images/jQuery.png",
+        image: jQueryPng,
     },
     {
         name: "HTML-5",
-        image: "/Images/html5.svg",
+        image: htmlSvg,
     },
     {
         name: "MongoDB",
-        image: "/Images/mongo.svg",
+        image: mongoSvg,
     },
     {
         name: "Express",
-        image: "/Images/express.svg",
+        image: expressImage,
     },
     
 ];
@@ -204,7 +227,7 @@ export const blogs = [
         name: "A cloned version of Greenhouse.io",
         symbol: "G",
         date: "March 13, 2021",
-        image: "/Images/Greenhouse.JPG",
+        image: greenhousImage,
         description:
             "Greenhouse is an innovative and impactful way to help clients in great hiring. It’s recognized by many industry analyst research reports and rankings as a leading hiring software company.",
         link: "https://shanoor.hashnode.dev/my-first-project-at-masai-school-1",
